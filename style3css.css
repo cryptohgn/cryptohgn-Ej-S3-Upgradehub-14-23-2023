@@ -1,0 +1,120 @@
+// Clases del header
+.menus {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 1;
+   
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.switcher-menu {
+    display: flex;
+    color: black;
+    font-family: "Arial", "verdana", "sans-serf";
+}
+
+
+.switcher-menu a {
+    margin: 10px 1em 5px 1em;
+    font-weight: bolder;
+}
+
+.active-menu {
+    font-family: "Verdana", "arial", "sans-serf";
+}
+
+.active-menu li {
+list-style: none;
+margin: 3px 0;
+}
+
+.active-menu a:hover {
+    background-color: bisque;
+  }
+
+.offer {
+    color: #AC462F;
+}
+
+.flexdiv-header {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    top: 5px;
+}
+
+.logo-menu-center {
+    margin: auto;
+    text-align: center;
+    font-family: "Arial", "verdana", "sans-serf";
+}
+
+.bolder-icon {
+    font-weight: bolder;
+}
+.search-User {
+    margin-right: 2em;
+}
+
+.search {
+    margin: 2em 0;
+    display:flex;
+}
+
+.user-icons {
+    margin: 0 1em;
+}
+
+.filter {
+    margin: 0 0.5em;
+    font-family: "Arial", "verdana", "sans-serf";
+}
+// Clases del main
+
+.prodCard {
+    margin: 1em 2em;
+}
+
+.prodShop {
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    justify-content: center;
+    flex-wrap:wrap;
+
+}
+.imgProd {
+    border-radius: 10px;
+    margin: 10px 20px;
+
+}
+.shop {
+    margin-top: 30px
+}
+
+.prodTitle {
+    font-family: "Verdana", "arial", "sans-serf";
+    font-size: 0.75em;
+    text-align: center;
+    color: @4f4f4f;
+
+}
+
+.prodPrice {
+    font-family: "Verdana", "arial", "sans-serf";
+    font-size: 0.75em;
+    text-align: center;
+    color: #000;
+
+}
+
+active-menu {
+
+}
