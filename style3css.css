@@ -55,6 +55,15 @@ margin: 3px 0;
     text-align: center;
     font-family: "Arial", "verdana", "sans-serf";
 }
+.breadcrumbs {
+    display: inline;
+}
+.inactivo {
+    color: rgb(0, 0, 0, 0.4)
+}
+.activo {
+    color: black;
+}
 
 .bolder-icon {
     font-weight: bolder;
