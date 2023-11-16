@@ -100,8 +100,15 @@ margin: 3px 0;
 
 }
 .imgProd {
+    
     border-radius: 10px;
     margin: 10px 20px;
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    background-image: url("img/modelo1.jpg");
+    background-position: center;
+    background-size: cover;
 
 }
 .shop {
